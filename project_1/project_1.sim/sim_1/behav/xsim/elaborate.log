@@ -1,0 +1,31 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/bin/unwrapped/lnx64.o/xelab -wto 54c032c799b24e979890f1ac21b92acb --incr --debug typical --relax --mt 8 -L xil_defaultlib -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_10 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package smartconnect_v1_0.sc_util_v1_0_4_pkg
+Compiling module xil_defaultlib.top(par1=1,par2=2,par3=3)
+Compiling architecture rtl of entity xil_defaultlib.count4 [count4_default]
+Compiling module xil_defaultlib.axi_slave
+Compiling module axi_protocol_checker_v2_0_10.axi_protocol_checker_v2_0_10_thr...
+Compiling module axi_protocol_checker_v2_0_10.axi_protocol_checker_v2_0_10_syn...
+Compiling module axi_protocol_checker_v2_0_10.axi_protocol_checker_v2_0_10_axi...
+Compiling module axi_protocol_checker_v2_0_10.axi_protocol_checker_v2_0_10_axi...
+Compiling module axi_protocol_checker_v2_0_10.axi_protocol_checker_v2_0_10_syn...
+Compiling module axi_protocol_checker_v2_0_10.axi_protocol_checker_v2_0_10_syn...
+Compiling module axi_protocol_checker_v2_0_10.axi_protocol_checker_v2_0_10_cor...
+Compiling module axi_protocol_checker_v2_0_10.axi_protocol_checker_v2_0_10_rep...
+Compiling module axi_protocol_checker_v2_0_10.axi_protocol_checker_v2_0_10_top...
+Compiling module xil_defaultlib.axi_protocol_checker_0
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

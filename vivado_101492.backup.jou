@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Aug 20 10:34:39 2021
+# Process ID: 101492
+# Current directory: /home/adg/GitHub/verilog_test
+# Command line: vivado
+# Log file: /home/adg/GitHub/verilog_test/vivado.log
+# Journal file: /home/adg/GitHub/verilog_test/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_1 /home/adg/GitHub/verilog_test/project_1 -part xczu7ev-ffvc1156-2-e
+set_property board_part xilinx.com:zcu106:part0:2.6 [current_project]
+set_property simulator_language Verilog [current_project]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/adg/GitHub/verilog_test/tb_top.v
+launch_simulation
+launch_simulation
+source tb_top.tcl
+close_sim
+set_property -name {xsim.simulate.log_all_signals} -value {true} -objects [get_filesets sim_1]
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+close_bd_design [get_bd_designs design_1]
+launch_simulation
+source tb_top.tcl
+close_sim
+launch_simulation
+source tb_top.tcl
+relaunch_sim
+relaunch_sim
+run 30 us
+add_files -norecurse /home/adg/GitHub/verilog_test/top.v
+update_compile_order -fileset sources_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {/home/adg/GitHub/verilog_test/project_1/tb_top_behav.wcfg}
+add_files -fileset sim_1 -norecurse /home/adg/GitHub/verilog_test/project_1/tb_top_behav.wcfg
+set_property xsim.view /home/adg/GitHub/verilog_test/project_1/tb_top_behav.wcfg [get_filesets sim_1]
+close_sim

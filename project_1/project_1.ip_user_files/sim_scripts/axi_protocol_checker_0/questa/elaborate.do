@@ -1,0 +1,1 @@
+vopt -64 +acc=npr -l elaborate.log -L xil_defaultlib -L xilinx_vip -L xpm -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_10 -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.axi_protocol_checker_0 xil_defaultlib.glbl -o axi_protocol_checker_0_opt

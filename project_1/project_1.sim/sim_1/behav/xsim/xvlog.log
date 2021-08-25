@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/adg/GitHub/verilog_test/axi_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/adg/GitHub/verilog_test/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/adg/GitHub/verilog_test/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [VRFC 10-2458] undeclared symbol rst_i, assumed default net type wire [/home/adg/GitHub/verilog_test/tb_top.v:67]

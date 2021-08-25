@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../project_1.ip_user_files/ipstatic/hdl/verilog" --include "/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include" \
+"../../../../project_1.gen/sources_1/ip/axi_protocol_checker_0/sim/axi_protocol_checker_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../project_1.ip_user_files/ipstatic/hdl/verilog" --include "/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include" \
+"../../../../../axi_slave.v" \
+"../../../../../top.v" \
+"../../../../../tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

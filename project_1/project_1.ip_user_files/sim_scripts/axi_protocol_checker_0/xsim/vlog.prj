@@ -1,0 +1,6 @@
+sv xil_defaultlib --include "../../../ipstatic/hdl/verilog" \
+"../../../../project_1.gen/sources_1/ip/axi_protocol_checker_0/sim/axi_protocol_checker_0.sv" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,348 @@
+
+*** Running vivado
+    with args -log axi_protocol_checker_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_protocol_checker_0.tcl
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source axi_protocol_checker_0.tcl -notrace
+Command: synth_design -top axi_protocol_checker_0 -part xczu7ev-ffvc1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 227422
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2757.492 ; gain = 48.688 ; free physical = 152 ; free virtual = 5301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_0' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/synth/axi_protocol_checker_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_v2_0_10_top' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:6113]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_v2_0_10_threadcam' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:5709]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:5853]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_v2_0_10_threadcam' (4#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:5709]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_v2_0_10_core' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:2719]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_v2_0_10_syn_fifo' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:4114]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_v2_0_10_syn_fifo' (5#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:4114]
+INFO: [Synth 8-226] default block is never used [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:3358]
+INFO: [Synth 8-226] default block is never used [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:3380]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_v2_0_10_axi4litepc_asr_inline' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_v2_0_10_axi4litepc_asr_inline' (6#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_v2_0_10_axi4pc_asr_inline' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:145]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_v2_0_10_axi4pc_asr_inline' (7#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:145]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_v2_0_10_syn_fifo__parameterized0' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:4114]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_v2_0_10_syn_fifo__parameterized0' (7#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:4114]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_v2_0_10_syn_fifo__parameterized1' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:4114]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_v2_0_10_syn_fifo__parameterized1' (7#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:4114]
+WARNING: [Synth 8-324] index 2 out of range [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:3966]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_v2_0_10_core' (8#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:2719]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:6653]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_checker_v2_0_10_reporter' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:4447]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_v2_0_10_reporter' (9#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:4447]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_v2_0_10_top' (10#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:6113]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_checker_0' (11#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/synth/axi_protocol_checker_0.sv:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2821.398 ; gain = 112.594 ; free physical = 1100 ; free virtual = 6129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2839.211 ; gain = 130.406 ; free physical = 1095 ; free virtual = 6125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2839.211 ; gain = 130.406 ; free physical = 1095 ; free virtual = 6125
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2839.211 ; gain = 0.000 ; free physical = 1087 ; free virtual = 6117
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/axi_protocol_checker_0_ooc.xdc] for cell 'inst'
+create_clock: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3018.898 ; gain = 0.000 ; free physical = 972 ; free virtual = 6016
+Finished Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/axi_protocol_checker_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/axi_protocol_checker_0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/axi_protocol_checker_0.xdc] for cell 'inst'
+Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_protocol_checker_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_protocol_checker_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3018.898 ; gain = 0.000 ; free physical = 972 ; free virtual = 6015
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.33 ; elapsed = 00:00:00.19 . Memory (MB): peak = 3021.867 ; gain = 2.969 ; free physical = 967 ; free virtual = 6011
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 3021.867 ; gain = 313.062 ; free physical = 1055 ; free virtual = 6099
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 3021.867 ; gain = 313.062 ; free physical = 1055 ; free virtual = 6099
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property mark_debug = true for inst/pc_status[159]. (constraint file  /home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/axi_protocol_checker_0.xdc, line 2).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_protocol_checker_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 3021.867 ; gain = 313.062 ; free physical = 1055 ; free virtual = 6100
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'gen_cam.state_reg' in module 'axi_protocol_checker_v2_0_10_threadcam'
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'CORE'. This will prevent further optimization [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:6575]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'REP'. This will prevent further optimization [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/hdl/axi_protocol_checker_v2_0_vl_rfs.sv:6653]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 | 00000000000000000000000000000000
+                OVERFLOW |                               01 | 00000000000000000000000000000010
+                 PENDING |                               10 | 00000000000000000000000000000011
+                ALLOCATE |                               11 | 00000000000000000000000000000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_cam.state_reg' using encoding 'sequential' in module 'axi_protocol_checker_v2_0_10_threadcam'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 3021.867 ; gain = 313.062 ; free physical = 1048 ; free virtual = 6097
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input   15 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 5     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 13    
+	   2 Input    3 Bit       Adders := 8     
+	   2 Input    2 Bit       Adders := 2     
++---Registers : 
+	              160 Bit    Registers := 1     
+	               32 Bit    Registers := 13    
+	               20 Bit    Registers := 4     
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 35    
+	                7 Bit    Registers := 4     
+	                5 Bit    Registers := 10    
+	                4 Bit    Registers := 31    
+	                3 Bit    Registers := 52    
+	                2 Bit    Registers := 19    
+	                1 Bit    Registers := 164   
++---Muxes : 
+	   3 Input   16 Bit        Muxes := 1     
+	   3 Input    9 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 2     
+	   8 Input    7 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 7     
+	   5 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 4     
+	   9 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 26    
+	   4 Input    2 Bit        Muxes := 2     
+	   6 Input    1 Bit        Muxes := 10    
+	  12 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 47    
+	   4 Input    1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 3021.867 ; gain = 313.062 ; free physical = 1021 ; free virtual = 6082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+---------------------+----------------+----------------------+---------------+
+|Module Name | RTL Object          | Inference      | Size (Depth x Width) | Primitives    | 
++------------+---------------------+----------------+----------------------+---------------+
+|inst/CORE   | AWCMD/data_ram_reg  | User Attribute | 8 x 19               | RAM32M16 x 2  | 
+|inst/CORE   | WCHECK/data_ram_reg | User Attribute | 8 x 13               | RAM32M16 x 1  | 
++------------+---------------------+----------------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 3390.477 ; gain = 681.672 ; free physical = 407 ; free virtual = 5502
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 3414.508 ; gain = 705.703 ; free physical = 402 ; free virtual = 5497
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+---------------------+----------------+----------------------+---------------+
+|Module Name | RTL Object          | Inference      | Size (Depth x Width) | Primitives    | 
++------------+---------------------+----------------+----------------------+---------------+
+|inst/CORE   | AWCMD/data_ram_reg  | User Attribute | 8 x 19               | RAM32M16 x 2  | 
+|inst/CORE   | WCHECK/data_ram_reg | User Attribute | 8 x 13               | RAM32M16 x 1  | 
++------------+---------------------+----------------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 3425.539 ; gain = 716.734 ; free physical = 410 ; free virtual = 5495
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 3425.539 ; gain = 716.734 ; free physical = 409 ; free virtual = 5494
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 3425.539 ; gain = 716.734 ; free physical = 409 ; free virtual = 5494
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 3425.539 ; gain = 716.734 ; free physical = 409 ; free virtual = 5494
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 3425.539 ; gain = 716.734 ; free physical = 409 ; free virtual = 5494
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 3425.539 ; gain = 716.734 ; free physical = 409 ; free virtual = 5494
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 3425.539 ; gain = 716.734 ; free physical = 409 ; free virtual = 5494
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++----------------------------------+--------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                       | RTL Name                                                                       | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++----------------------------------+--------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|axi_protocol_checker_v2_0_10_core | i_Axi4PC_asr_inline/gen_deflt_chks.gen_ltwt_slave_side.WSTRB_stage_2_eq_reg[0] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|axi_protocol_checker_v2_0_10_core | gen_wstrb.Strb_q3_reg[3]                                                       | 3      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|axi_protocol_checker_v2_0_10_core | gen_wstrb.CHKSTRB_stage_2_eq_reg[0]                                            | 3      | 1     | NO           | NO                 | NO                | 1      | 0       | 
++----------------------------------+--------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+
+Dynamic Shift Register Report:
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name      | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | shift_reg_reg | 4      | 1          | 1      | 0       | 0      | 0      | 0      | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |   152|
+|2     |LUT2     |    59|
+|3     |LUT3     |    52|
+|4     |LUT4     |    59|
+|5     |LUT5     |    47|
+|6     |LUT6     |   167|
+|7     |RAM32M   |     2|
+|8     |RAM32M16 |     1|
+|9     |SRL16E   |    10|
+|10    |FDRE     |   682|
+|11    |FDSE     |     9|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 3425.539 ; gain = 716.734 ; free physical = 409 ; free virtual = 5494
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 3425.539 ; gain = 534.078 ; free physical = 446 ; free virtual = 5531
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 3425.547 ; gain = 716.734 ; free physical = 446 ; free virtual = 5531
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3433.539 ; gain = 0.000 ; free physical = 529 ; free virtual = 5620
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3490.336 ; gain = 0.000 ; free physical = 473 ; free virtual = 5565
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 1 instance 
+
+Synth Design complete, checksum: 1007d83b
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:00:59 . Memory (MB): peak = 3490.336 ; gain = 1039.531 ; free physical = 619 ; free virtual = 5711
+INFO: [Common 17-1381] The checkpoint '/home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_protocol_checker_0_synth_1/axi_protocol_checker_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP axi_protocol_checker_0, cache-ID = 9587380228dac785
+INFO: [Coretcl 2-1174] Renamed 20 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_protocol_checker_0_synth_1/axi_protocol_checker_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file axi_protocol_checker_0_utilization_synth.rpt -pb axi_protocol_checker_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 22 20:45:21 2021...

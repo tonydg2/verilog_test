@@ -1,0 +1,2 @@
+axi_protocol_checker_0.sv,systemverilog,xil_defaultlib,../../../../project_1.gen/sources_1/ip/axi_protocol_checker_0/sim/axi_protocol_checker_0.sv,incdir="$ref_dir/../../../ipstatic/hdl/verilog"incdir="../../../ipstatic/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v
