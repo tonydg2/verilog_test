@@ -60,11 +60,11 @@ module tb_top ;
   
 
   // reg
-  reg         waddr_en;
+  reg         waddr_en = 0;
   reg [31:0]  waddr;
-  reg         wdata_en;
-  reg [31:0]  wdata;
-  reg         wresp_en;
+  reg         wdata_en = 0;
+  reg [31:0]  wdata_i;
+  reg         wresp_en = 0;
   reg [31:0]  raddr;
   reg         raddr_en = 0;
   reg         rdata_en = 0;
@@ -299,12 +299,12 @@ axi_protocol_checker_0 axi_protocol_checker2 (
     $display("Reg val hex: %h", reg_val);
 
     
-    axi_write2(32'h43C00000, 32'h1000000a);
-    axi_write2(32'h43C00004, 32'hf200000b);
-    axi_write2(32'h43C00008, 32'ha300000c);
+    axi_write2(32'h43C00000, 32'h100fffff);
+    axi_write2(32'h43C00004, 32'h200fffff);
+    axi_write2(32'h43C00008, 32'h300fffff);
     //#100;
     //axi_write_addr(32'h43C0000c);axi_write_data(32'hdeadbeef);axi_write_resp(0);
-    axi_write2(32'h43C0000c, 32'h3400000d);
+    axi_write2(32'h43C0000c, 32'h400fffff);
     
     $display("********************");
     axi_read2(32'h43C00000, reg_val);
@@ -629,24 +629,55 @@ axi_protocol_checker_0 axi_protocol_checker2 (
     input [31:0] data;
 
     begin
-      
+
+    
+    // address and data on same cycle 
       @(negedge ACLK);
       waddr_en = 1;
       waddr = addr;
-      
       wdata_en = 1;
-      wdata = data;
-
+      wdata_i = data;
       @(negedge ACLK);
-
       waddr_en = 0;
       waddr = 0;
-      
       wdata_en = 0;
-      wdata = 0;
+      wdata_i = 0;
+      
 
+    /*
+    // address before data with delay
+      @(negedge ACLK);
+      waddr_en = 1;
+      waddr = addr;
+      @(negedge ACLK);
+      waddr_en = 0;
+      waddr = 0;
+      @(negedge ACLK);@(negedge ACLK);@(negedge ACLK);// delay
+      wdata_en = 1;
+      wdata_i = data;
+      @(negedge ACLK);
+      wdata_en = 0;
+      wdata_i = 0;
+    */
+
+    /*
+    // data before address with delay
+      @(negedge ACLK);
+      wdata_en = 1;
+      wdata_i = data;
+      @(negedge ACLK);
+      wdata_en = 0;
+      wdata_i = 0;
+      @(negedge ACLK);@(negedge ACLK);@(negedge ACLK);// delay
+      waddr_en = 1;
+      waddr = addr;
+      @(negedge ACLK);
+      waddr_en = 0;
+      waddr = 0;
+      */
+
+    // response
       wresp_en = 1;
-
       @(negedge ACLK);
       wresp_en = 0;
 
@@ -665,7 +696,7 @@ axi_protocol_checker_0 axi_protocol_checker2 (
     end
     // wdata chan
     if (wdata_en) begin
-      WDATA   <= wdata;
+      WDATA   <= wdata_i;
       WVALID  <= 1;
     end else if (WREADY) begin
       WDATA   <= 0;

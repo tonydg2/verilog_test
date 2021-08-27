@@ -97,3 +97,25 @@ update_compile_order -fileset sim_1
 relaunch_sim
 save_wave_config {/home/adg/GitHub/verilog_test/project_1/tb_top_behav.wcfg}
 relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {/home/adg/GitHub/verilog_test/project_1/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim
+run all
+relaunch_sim
+save_wave_config {/home/adg/GitHub/verilog_test/project_1/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {/home/adg/GitHub/verilog_test/project_1/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim

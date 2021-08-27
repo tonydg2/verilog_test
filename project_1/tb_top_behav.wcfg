@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="537.798 ns"></ZoomStartTime>
-      <ZoomEndTime time="620.422 ns"></ZoomEndTime>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
       <Cursor1Time time="1,000.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="191"></NameColumnWidth>
       <ValueColumnWidth column_width="88"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="17" />
+   <WVObjectSize size="24" />
    <wvobject type="array" fp_name="/tb_top/axi_protocol_checker2/pc_status">
       <obj_property name="ElementShortName">pc_status[159:0]</obj_property>
       <obj_property name="ObjectShortName">pc_status[159:0]</obj_property>
@@ -179,5 +179,33 @@
    <wvobject type="array" fp_name="/tb_top/axi_slave_VERILOG2/BRESP">
       <obj_property name="ElementShortName">BRESP[1:0]</obj_property>
       <obj_property name="ObjectShortName">BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/wdata_en">
+      <obj_property name="ElementShortName">wdata_en</obj_property>
+      <obj_property name="ObjectShortName">wdata_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/axi_slave_VERILOG2/waddr_latched">
+      <obj_property name="ElementShortName">waddr_latched</obj_property>
+      <obj_property name="ObjectShortName">waddr_latched</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/axi_slave_VERILOG2/wdata_latched">
+      <obj_property name="ElementShortName">wdata_latched</obj_property>
+      <obj_property name="ObjectShortName">wdata_latched</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/axi_slave_VERILOG2/waddr">
+      <obj_property name="ElementShortName">waddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/axi_slave_VERILOG2/wdata_done">
+      <obj_property name="ElementShortName">wdata_done</obj_property>
+      <obj_property name="ObjectShortName">wdata_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/axi_slave_VERILOG2/local_waddr">
+      <obj_property name="ElementShortName">local_waddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">local_waddr[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/axi_slave_VERILOG2/reg_data_tmp">
+      <obj_property name="ElementShortName">reg_data_tmp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_data_tmp[31:0]</obj_property>
    </wvobject>
 </wave_config>

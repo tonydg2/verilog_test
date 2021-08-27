@@ -182,7 +182,7 @@ module axi_slave (
 
 
   always @ (AWVALID, WVALID) begin
-    if (!wdata_done && AWVALID && WVALID) begin
+    if (!wdata_done && AWVALID && WVALID) begin // address and data on same cycle
       wdata_done = 1'b1;
       case (local_waddr)
         0: reg0 = WDATA;
@@ -194,7 +194,32 @@ module axi_slave (
         6: reg6 = WDATA;
         7: reg7 = WDATA;
       endcase
-    end else if (!wdata_done && (AWVALID || WVALID)) begin
+    //end else if (!wdata_done && (AWVALID || WVALID)) begin
+    end else if (!wdata_done && waddr_latched && WVALID) begin // case where address came first
+      wdata_done = 1'b1;
+      case (local_waddr)
+        0: reg0 = WDATA;
+        1: reg1 = WDATA;
+        2: reg2 = WDATA;
+        3: reg3 = WDATA;
+        4: reg4 = WDATA;
+        5: reg5 = WDATA;
+        6: reg6 = WDATA;
+        7: reg7 = WDATA;
+      endcase
+    end else if (!wdata_done && waddr_latched && wdata_latched && BVALID) begin // case where data came first
+      //wdata_done = 1'b1;
+      case (local_waddr)
+        0: reg0 = reg_data_tmp;
+        1: reg1 = reg_data_tmp;
+        2: reg2 = reg_data_tmp;
+        3: reg3 = reg_data_tmp;
+        4: reg4 = reg_data_tmp;
+        5: reg5 = reg_data_tmp;
+        6: reg6 = reg_data_tmp;
+        7: reg7 = reg_data_tmp;
+      endcase
+    end else if (!wdata_done && waddr_latched && wdata_latched) begin // case where data came first
       wdata_done = 1'b1;
       case (local_waddr)
         0: reg0 = reg_data_tmp;
