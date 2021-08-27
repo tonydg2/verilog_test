@@ -3,9 +3,9 @@
 Jun 10 2021
 19:45:28
 /home/adg/GitHub/verilog_test/axi_intfc.vhd,1629679750,vhdl,,,,axi_intfc,,,,,,,,
-/home/adg/GitHub/verilog_test/axi_slave.v,1629910018,verilog,,/home/adg/GitHub/verilog_test/top.v,,axi_slave,,axi_protocol_checker_v2_0_10;smartconnect_v1_0;uvm,../../../../project_1.ip_user_files/ipstatic/hdl/verilog;/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include,,,,,
+/home/adg/GitHub/verilog_test/axi_slave.v,1629942787,verilog,,/home/adg/GitHub/verilog_test/top.v,,axi_slave,,axi_protocol_checker_v2_0_10;smartconnect_v1_0;uvm,../../../../project_1.ip_user_files/ipstatic/hdl/verilog;/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include,,,,,
 /home/adg/GitHub/verilog_test/count4.vhd,1629657487,vhdl,,,,count4,,,,,,,,
 /home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_protocol_checker_0/sim/axi_protocol_checker_0.sv,1629679442,systemVerilog,,,,axi_protocol_checker_0,,axi_protocol_checker_v2_0_10;smartconnect_v1_0;uvm,../../../../project_1.ip_user_files/ipstatic/hdl/verilog;/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include,,,,,
 /home/adg/GitHub/verilog_test/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,axi_protocol_checker_v2_0_10;smartconnect_v1_0;uvm,,,,,,
-/home/adg/GitHub/verilog_test/tb_top.v,1629910064,verilog,,,,tb_top,,axi_protocol_checker_v2_0_10;smartconnect_v1_0;uvm,../../../../project_1.ip_user_files/ipstatic/hdl/verilog;/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include,,,,,
+/home/adg/GitHub/verilog_test/tb_top.v,1630025659,verilog,,,,tb_top,,axi_protocol_checker_v2_0_10;smartconnect_v1_0;uvm,../../../../project_1.ip_user_files/ipstatic/hdl/verilog;/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include,,,,,
 /home/adg/GitHub/verilog_test/top.v,1629765422,verilog,,/home/adg/GitHub/verilog_test/tb_top.v,,top,,axi_protocol_checker_v2_0_10;smartconnect_v1_0;uvm,../../../../project_1.ip_user_files/ipstatic/hdl/verilog;/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include,,,,,

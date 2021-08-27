@@ -1,0 +1,1 @@
+-wto "54c032c799b24e979890f1ac21b92acb" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "axi_intfc_behav" "xil_defaultlib.axi_intfc" -log "elaborate.log" 
