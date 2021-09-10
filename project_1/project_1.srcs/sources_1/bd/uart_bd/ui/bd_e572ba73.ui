@@ -1,0 +1,34 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-472,-444",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port S_AXI_0 -pg 1 -lvl 0 -x -30 -y -230 -defaultsOSRD
+preplace port UART_0 -pg 1 -lvl 2 -x 260 -y -220 -defaultsOSRD
+preplace port S_AXI_1 -pg 1 -lvl 0 -x -30 -y -70 -defaultsOSRD
+preplace port UART_1 -pg 1 -lvl 2 -x 260 -y -60 -defaultsOSRD
+preplace port port-id_interrupt_0 -pg 1 -lvl 2 -x 260 -y -200 -defaultsOSRD
+preplace port port-id_s_axi_aclk_0 -pg 1 -lvl 0 -x -30 -y -210 -defaultsOSRD
+preplace port port-id_s_axi_aresetn_0 -pg 1 -lvl 0 -x -30 -y -190 -defaultsOSRD
+preplace port port-id_interrupt_1 -pg 1 -lvl 2 -x 260 -y -40 -defaultsOSRD
+preplace port port-id_s_axi_aclk_1 -pg 1 -lvl 0 -x -30 -y -50 -defaultsOSRD
+preplace port port-id_s_axi_aresetn_1 -pg 1 -lvl 0 -x -30 -y -30 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 1 -x 110 -y -210 -defaultsOSRD
+preplace inst axi_uartlite_1 -pg 1 -lvl 1 -x 110 -y -50 -defaultsOSRD
+preplace netloc axi_uartlite_0_interrupt 1 1 1 NJ -200
+preplace netloc axi_uartlite_1_interrupt 1 1 1 NJ -40
+preplace netloc s_axi_aclk_0_1 1 0 1 NJ -210
+preplace netloc s_axi_aclk_1_1 1 0 1 NJ -50
+preplace netloc s_axi_aresetn_0_1 1 0 1 NJ -190
+preplace netloc s_axi_aresetn_1_1 1 0 1 NJ -30
+preplace netloc S_AXI_0_1 1 0 1 NJ -230
+preplace netloc S_AXI_1_1 1 0 1 NJ -70
+preplace netloc axi_uartlite_0_UART 1 1 1 NJ -220
+preplace netloc axi_uartlite_1_UART 1 1 1 NJ -60
+levelinfo -pg 1 -30 110 260
+pagesize -pg 1 -db -bbox -sgen -190 -300 390 360
+"
+}
+0

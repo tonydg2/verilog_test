@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include" \
+"/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/bd/uart_bd/ip/uart_bd_axi_uartlite_0_0/uart_bd_axi_uartlite_0_0_sim_netlist.v" \
+"/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/bd/uart_bd/ip/uart_bd_axi_uartlite_0_1/uart_bd_axi_uartlite_0_1_sim_netlist.v" \
+"../../../bd/uart_bd/sim/uart_bd.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,1 +1,0 @@
--wto "54c032c799b24e979890f1ac21b92acb" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "smartconnect_v1_0" -L "axi_protocol_checker_v2_0_10" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "tb_top_behav" "xil_defaultlib.tb_top" "xil_defaultlib.glbl" -log "elaborate.log" 

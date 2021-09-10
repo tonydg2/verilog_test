@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+Note: axi_iic configured for SDA inertial delay of 0 clocks.
+Time: 0 ps  Iteration: 0  Process: /axi_iic_0_exdes_tb/DUT_TB/DUT/U0/X_IIC/FILTER_I/line__5051  File: /wrk/ci/prod/2021.1/sw/continuous/3932/packages/customer/vivado/data/ip/xilinx/axi_iic_v2_1/hdl/axi_iic_v2_1_vh_rfs.vhd
+Note: axi_iic configured for SCL inertial delay of 0 clocks.
+Time: 0 ps  Iteration: 0  Process: /axi_iic_0_exdes_tb/DUT_TB/DUT/U0/X_IIC/FILTER_I/line__5025  File: /wrk/ci/prod/2021.1/sw/continuous/3932/packages/customer/vivado/data/ip/xilinx/axi_iic_v2_1/hdl/axi_iic_v2_1_vh_rfs.vhd
+Note: First ACK received from I2C
+Time: 38477499 ps  Iteration: 0  Process: /axi_iic_0_exdes_tb/line__162  File: /home/adg/GitHub/verilog_test/axi_iic_0_ex/imports/axi_iic_0_exdes_tb.vhd
+Note: Second ACK received from I2C
+Time: 47513500 ps  Iteration: 0  Process: /axi_iic_0_exdes_tb/line__162  File: /home/adg/GitHub/verilog_test/axi_iic_0_ex/imports/axi_iic_0_exdes_tb.vhd
+## SYSTEM_CYCLE_COUNTER 9645 ns
+Failure: Test Completed Successfully
+Time: 48228499 ps  Iteration: 2  Process: /axi_iic_0_exdes_tb/line__225  File: /home/adg/GitHub/verilog_test/axi_iic_0_ex/imports/axi_iic_0_exdes_tb.vhd
+$finish called at time : 48228499 ps : File "/home/adg/GitHub/verilog_test/axi_iic_0_ex/imports/axi_iic_0_exdes_tb.vhd" Line 238

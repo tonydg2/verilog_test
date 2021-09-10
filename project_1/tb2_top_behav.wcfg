@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb2_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb2_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="541.561 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,146.857 ns"></ZoomEndTime>
+      <Cursor1Time time="785.100 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/tb2_top/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb2_top/i2c/sda_i">
+      <obj_property name="ElementShortName">sda_i</obj_property>
+      <obj_property name="ObjectShortName">sda_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb2_top/i2c/sda_o">
+      <obj_property name="ElementShortName">sda_o</obj_property>
+      <obj_property name="ObjectShortName">sda_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb2_top/i2c/scl_i">
+      <obj_property name="ElementShortName">scl_i</obj_property>
+      <obj_property name="ObjectShortName">scl_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb2_top/i2c/scl_o">
+      <obj_property name="ElementShortName">scl_o</obj_property>
+      <obj_property name="ObjectShortName">scl_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb2_top/i2c/sda_t">
+      <obj_property name="ElementShortName">sda_t</obj_property>
+      <obj_property name="ObjectShortName">sda_t</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb2_top/i2c/scl_t">
+      <obj_property name="ElementShortName">scl_t</obj_property>
+      <obj_property name="ObjectShortName">scl_t</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb2_top/i2c/iic2intc_irpt">
+      <obj_property name="ElementShortName">iic2intc_irpt</obj_property>
+      <obj_property name="ObjectShortName">iic2intc_irpt</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb2_top/dbg">
+      <obj_property name="ElementShortName">dbg</obj_property>
+      <obj_property name="ObjectShortName">dbg</obj_property>
+   </wvobject>
+</wave_config>

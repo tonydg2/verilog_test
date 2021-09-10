@@ -1,0 +1,253 @@
+
+*** Running vivado
+    with args -log axi_crossbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_crossbar_0.tcl
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source axi_crossbar_0.tcl -notrace
+Command: synth_design -top axi_crossbar_0 -part xczu7ev-ffvc1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 51008
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2765.992 ; gain = 48.719 ; free physical = 966 ; free virtual = 4894
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_0' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_axi_crossbar' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4884]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_crossbar_sasd' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_addr_decoder' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_addr_decoder' (3#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (4#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (4#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_decerr_slave' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3501]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_decerr_slave' (5#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:3501]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_addr_arbiter_sasd' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (5#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_addr_arbiter_sasd' (6#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_splitter' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_splitter' (7#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_25_splitter__parameterized0' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_splitter__parameterized0' (7#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (7#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' (7#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_24_axic_register_slice' (8#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized4' [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized4' (8#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_crossbar_sasd' (9#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_25_axi_crossbar' (10#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/hdl/axi_crossbar_v2_1_vl_rfs.v:4884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_0' (11#1) [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/synth/axi_crossbar_0.v:59]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2902.898 ; gain = 185.625 ; free physical = 1034 ; free virtual = 4970
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2920.711 ; gain = 203.438 ; free physical = 1036 ; free virtual = 4964
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2920.711 ; gain = 203.438 ; free physical = 1036 ; free virtual = 4964
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2920.711 ; gain = 0.000 ; free physical = 1029 ; free virtual = 4958
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/axi_crossbar_0_ooc.xdc] for cell 'inst'
+create_clock: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 3073.430 ; gain = 0.000 ; free physical = 860 ; free virtual = 4796
+Finished Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/ip/axi_crossbar_0/axi_crossbar_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_crossbar_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_crossbar_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3073.430 ; gain = 0.000 ; free physical = 860 ; free virtual = 4796
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3073.430 ; gain = 0.000 ; free physical = 859 ; free virtual = 4795
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 3073.430 ; gain = 356.156 ; free physical = 955 ; free virtual = 4890
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 3073.430 ; gain = 356.156 ; free physical = 955 ; free virtual = 4890
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_crossbar_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 3073.430 ; gain = 356.156 ; free physical = 960 ; free virtual = 4896
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 3073.430 ; gain = 356.156 ; free physical = 955 ; free virtual = 4892
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+	               36 Bit    Registers := 2     
+	                3 Bit    Registers := 6     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 3     
+	   2 Input   36 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 26    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 3073.430 ; gain = 356.156 ; free physical = 938 ; free virtual = 4878
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 3394.773 ; gain = 677.500 ; free physical = 328 ; free virtual = 4270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 3444.812 ; gain = 727.539 ; free physical = 314 ; free virtual = 4255
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 3444.812 ; gain = 727.539 ; free physical = 312 ; free virtual = 4254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 3444.812 ; gain = 727.539 ; free physical = 316 ; free virtual = 4257
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 3444.812 ; gain = 727.539 ; free physical = 316 ; free virtual = 4257
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 3444.812 ; gain = 727.539 ; free physical = 316 ; free virtual = 4257
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 3444.812 ; gain = 727.539 ; free physical = 316 ; free virtual = 4257
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 3444.812 ; gain = 727.539 ; free physical = 316 ; free virtual = 4257
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 3444.812 ; gain = 727.539 ; free physical = 316 ; free virtual = 4257
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |    23|
+|3     |LUT3 |     7|
+|4     |LUT4 |   156|
+|5     |LUT5 |    46|
+|6     |LUT6 |    66|
+|7     |FDRE |   121|
+|8     |FDSE |    20|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 3444.812 ; gain = 727.539 ; free physical = 316 ; free virtual = 4257
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 3444.812 ; gain = 574.820 ; free physical = 357 ; free virtual = 4298
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 3444.820 ; gain = 727.539 ; free physical = 357 ; free virtual = 4298
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3444.820 ; gain = 0.000 ; free physical = 447 ; free virtual = 4388
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3505.547 ; gain = 0.000 ; free physical = 376 ; free virtual = 4317
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: ca55841b
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:00:59 . Memory (MB): peak = 3505.547 ; gain = 1054.773 ; free physical = 529 ; free virtual = 4470
+INFO: [Common 17-1381] The checkpoint '/home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_crossbar_0_synth_1/axi_crossbar_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP axi_crossbar_0, cache-ID = ff7ace607b6451c2
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/adg/GitHub/verilog_test/project_1/project_1.runs/axi_crossbar_0_synth_1/axi_crossbar_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file axi_crossbar_0_utilization_synth.rpt -pb axi_crossbar_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  6 14:24:02 2021...

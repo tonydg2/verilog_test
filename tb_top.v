@@ -74,6 +74,10 @@ module tb_top ;
   reg[3:0]    cntr= 0;
   reg         cnt_up;
   reg[31:0]   reg_val;
+
+  reg [7:0]   adc_p;
+  reg [7:0]   adc_n;
+  reg         ref_clk300 = 0;
   
   reg         dbg = 0;
 
@@ -86,12 +90,19 @@ module tb_top ;
     .par2 (2),
     .par3 (3)
   ) top (
-    .clk   (clk_i),
-    .rst   (rst_i),
-    .in1   (cntr3),
-    .out1  (), // unconnected (open)
-    .out2  () 
+    .clk        (clk_i),
+    //.refclk     (ref_clk300),
+    .rst        (rst_i),
+    .in1        (cntr3),
+    .adc_clk    (clk_i),
+    .adc_p      (adc_p),
+    .adc_n      (adc_n),
+    .adc_data   (),
+    .out1       (), // unconnected (open)
+    .out2       () 
   );
+
+
 
   // instantiation of VHDL component
   count4 counter (
@@ -257,7 +268,7 @@ axi_protocol_checker_0 axi_protocol_checker2 (
 
 
   always #2 clk = ~clk; // 250mhz period = 4ns, invert every 2ns
-  
+  always #3.3 ref_clk300 = ~ref_clk300;
   always #5 axi_clk = ~axi_clk; // 100mhz 
 
   //always @ (posedge clk, posedge rst) //async reset
@@ -539,7 +550,8 @@ axi_protocol_checker_0 axi_protocol_checker2 (
 //  assign ARREADY  = SAXI_arready;
 //  assign RRESP    = SAXI_rresp;
 //  assign RDATA    = SAXI_rdata;
-/*
+
+
   task axi_read2;
     input  [31:0] addr;
     output [31:0] data;

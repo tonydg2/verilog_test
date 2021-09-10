@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Sep  8 11:52:42 2021
+# Process ID: 209545
+# Current directory: /home/adg/GitHub/verilog_test/project_1/project_1.runs/uart_bd_axi_uartlite_0_1_synth_1
+# Command line: vivado -log uart_bd_axi_uartlite_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_bd_axi_uartlite_0_1.tcl
+# Log file: /home/adg/GitHub/verilog_test/project_1/project_1.runs/uart_bd_axi_uartlite_0_1_synth_1/uart_bd_axi_uartlite_0_1.vds
+# Journal file: /home/adg/GitHub/verilog_test/project_1/project_1.runs/uart_bd_axi_uartlite_0_1_synth_1/vivado.jou
+#-----------------------------------------------------------
+source uart_bd_axi_uartlite_0_1.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP uart_bd_axi_uartlite_0_1, cache-ID = a2cd7cd75d4b1884.
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  8 11:52:54 2021...

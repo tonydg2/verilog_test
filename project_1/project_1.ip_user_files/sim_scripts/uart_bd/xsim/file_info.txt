@@ -1,0 +1,4 @@
+uart_bd_axi_uartlite_0_0_sim_netlist.v,verilog,xil_defaultlib,/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/bd/uart_bd/ip/uart_bd_axi_uartlite_0_0/uart_bd_axi_uartlite_0_0_sim_netlist.v,
+uart_bd_axi_uartlite_0_1_sim_netlist.v,verilog,xil_defaultlib,/home/adg/GitHub/verilog_test/project_1/project_1.gen/sources_1/bd/uart_bd/ip/uart_bd_axi_uartlite_0_1/uart_bd_axi_uartlite_0_1_sim_netlist.v,
+uart_bd.v,verilog,xil_defaultlib,../../../bd/uart_bd/sim/uart_bd.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

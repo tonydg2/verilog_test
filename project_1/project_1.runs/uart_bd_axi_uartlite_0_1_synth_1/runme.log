@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log uart_bd_axi_uartlite_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_bd_axi_uartlite_0_1.tcl
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source uart_bd_axi_uartlite_0_1.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP uart_bd_axi_uartlite_0_1, cache-ID = a2cd7cd75d4b1884.
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  8 11:52:54 2021...

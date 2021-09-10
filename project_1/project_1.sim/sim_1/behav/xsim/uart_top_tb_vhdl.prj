@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../count4.vhd" \
+"../../../../../axi_intfc.vhd" \
+
+# Do not sort compile order
+nosort

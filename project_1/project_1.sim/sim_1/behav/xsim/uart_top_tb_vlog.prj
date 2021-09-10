@@ -1,0 +1,34 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../project_1.gen/sources_1/bd/smartconect_ip/ipshared/80cc/hdl/verilog" --include "../../../../project_1.gen/sources_1/bd/smartconect_ip/ipshared/22b9/hdl/verilog" --include "../../../../project_1.gen/sources_1/bd/smartconect_ip/ipshared/ec67/hdl" --include "../../../../project_1.gen/sources_1/bd/axi_interconnect_ip/ipshared/ec67/hdl" --include "../../../../project_1.ip_user_files/ipstatic/hdl/verilog" --include "../../../../project_1.ip_user_files/ipstatic/hdl" --include "/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include" \
+"../../../../project_1.gen/sources_1/ip/axi_protocol_checker_0/sim/axi_protocol_checker_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../project_1.gen/sources_1/bd/smartconect_ip/ipshared/80cc/hdl/verilog" --include "../../../../project_1.gen/sources_1/bd/smartconect_ip/ipshared/22b9/hdl/verilog" --include "../../../../project_1.gen/sources_1/bd/smartconect_ip/ipshared/ec67/hdl" --include "../../../../project_1.gen/sources_1/bd/axi_interconnect_ip/ipshared/ec67/hdl" --include "../../../../project_1.ip_user_files/ipstatic/hdl/verilog" --include "../../../../project_1.ip_user_files/ipstatic/hdl" --include "/media/adg/inland_sata6/ubuntu_installs/xilinx/Vivado/2021.1/data/xilinx_vip/include" \
+"../../../../project_1.gen/sources_1/ip/axi_gpio_0/axi_gpio_0_sim_netlist.v" \
+"../../../../project_1.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_sim_netlist.v" \
+"../../../../project_1.gen/sources_1/ip/axi_uart16550_0/axi_uart16550_0_sim_netlist.v" \
+"../../../../project_1.gen/sources_1/ip/axi_iic_0/axi_iic_0_sim_netlist.v" \
+"../../../../project_1.gen/sources_1/ip/axi_crossbar_0/axi_crossbar_0_sim_netlist.v" \
+"../../../../project_1.ip_user_files/bd/uart_bd/ip/uart_bd_axi_uartlite_0_0/uart_bd_axi_uartlite_0_0_sim_netlist.v" \
+"../../../../project_1.ip_user_files/bd/uart_bd/ip/uart_bd_axi_uartlite_0_1/uart_bd_axi_uartlite_0_1_sim_netlist.v" \
+"../../../../../adc_ddr.v" \
+"../../../../../top.v" \
+"../../../../../axi_slave.v" \
+"../../../../../top2.v" \
+"../../../../project_1.ip_user_files/bd/smartconect_ip/sim/smartconect_ip.v" \
+"../../../../project_1.ip_user_files/bd/axi_interconnect_ip/ip/axi_interconnect_ip_s00_mmu_0/sim/axi_interconnect_ip_s00_mmu_0.v" \
+"../../../../project_1.ip_user_files/bd/axi_interconnect_ip/ip/axi_interconnect_ip_s01_mmu_0/sim/axi_interconnect_ip_s01_mmu_0.v" \
+"../../../../project_1.ip_user_files/bd/axi_interconnect_ip/sim/axi_interconnect_ip.v" \
+"../../../../project_1.ip_user_files/bd/iic_bd/sim/iic_bd.v" \
+"../../../../project_1.gen/sources_1/bd/iic_bd/hdl/iic_bd_wrapper.v" \
+"../../../../project_1.ip_user_files/bd/uart_bd/sim/uart_bd.v" \
+"../../../../project_1.gen/sources_1/bd/uart_bd/hdl/uart_bd_wrapper.v" \
+"../../../../../adc_tb.v" \
+"../../../../../tb_top.v" \
+"../../../../../top2_tb.v" \
+"../../../../../uart_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
